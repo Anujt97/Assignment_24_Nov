@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>
+            Pattern-1
+        </title>
+    </head>
+    <body>
+        <script>
+            var num=prompt("enter the number");
+            for(var i=1; i<=num; i=i+1){
+                var star=" ";
+                for (var j=1; j<=i; j=j+1){
+                    star=star + "*";
+                }
+                console.log(star);
+            }
+            for( var m=num-1; m>=1; m=m-1){
+                var stars=" ";
+                for( var n=m; n>=1; n=n-1){
+                    stars=stars+ "*";
+                }
+                console.log(stars);
+            }
+            
+        </script>
+    </body>
+</html>
